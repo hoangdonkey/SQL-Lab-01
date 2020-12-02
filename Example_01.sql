@@ -62,7 +62,7 @@ CREATE LOGIN example WITH PASSWORD='123456'
 --Tao user tu Login vua tao
 CREATE USER example FROM LOGIN example
 
---Huy bo tat ca cac quyen cua use example tren bang contact
+--Huy bo tat ca cac quyen cua user example tren bang contact
 REVOKE ALL ON Contacts FROM example
 
 --Gan lai quyen cho user example
